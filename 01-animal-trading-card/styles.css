@@ -1,0 +1,56 @@
+body {
+	font-family: 'Merriweather';
+}
+
+img {
+	width: 300px;
+	border-radius: 3px;
+}
+
+.interesting {
+	font-style: italic;	
+}
+
+span {
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.card {
+	border: 1px solid #999;
+	border-radius: 5px;
+	width: 300px;
+	padding: 10px;
+	background-color: #eee;
+	-webkit-box-shadow: 6px 6px 6px -1px rgba(209,209,209,1);
+	-moz-box-shadow: 6px 6px 6px -1px rgba(209,209,209,1);
+	box-shadow: 6px 6px 6px -1px rgba(209,209,209,1);
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.info {
+	border: 1px solid #aaa9;
+	border-radius: 3px;
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+p, li {
+	font-size: 11px;
+	line-height: 1.6em;
+}
+
+p {
+	margin: 0;
+}
+
+h3 {
+	margin: 16px 0 16px 0;
+}
+
