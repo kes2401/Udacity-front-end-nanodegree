@@ -1,76 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="author" content="Keith Scully" />
         <meta charset="utf-8" />
         <title>Portfolio Site</title>
-        <link href="https://fonts.googleapis.com/css?family=Raleway:300|Lato:300" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-
         <div class="container">
-            
             <header class="header">
-                
                 <div class="logo">
-                    <img src="img/ninja.png">
+                    <img class="image" src="img/ninja.png" alt="ninja logo">
                 </div>
-
                 <div class="title">
                     <h1 class="text-header main-header">KEITH SCULLY</h1>
-                    <h4 class="text-header sub-header">FRONT-END NINJA</h4>                    
+                    <h4 class="text-header sub-header">FRONT-END NINJA</h4>
                 </div>
-        
             </header>
 
+            <main>
+                <section class="main-image">
+                    <img class="image" src="img/main-400.jpg" srcset="img/main-400.jpg 400w, img/main-800.jpg 800w, img/main-1000.jpg 1000w" sizes="100vw" alt="UI design">
+                </section>
 
-            <section class="main">
-                
-                <img class="image" src="img/main.jpg">
+                <section class="work">
+                    <h2 class="feature-header">Featured Work</h2>
+                    <div class="work-items">
 
-            </section>
+                        <article class="feature">
+                            <img class="image" src="img/one-400.jpg" alt="Appworld project">
+                            <h2 class="work-title">APPWORLD</h2>
+                            <p><a class="link" href="#">https://github.com/keith/appworld</a></p>
+                        </article>
 
+                        <article class="feature">
+                            <img class="image" src="img/two-400.jpg" alt="GigWorld project">
+                            <h2 class="work-title">GIGFINDER</h2>
+                            <p><a class="link" href="#">https://github.com/keith/gigfinder</a></p>
+                        </article>
 
-            <section class="work">
-                
-                <h2 class="feature-header">Featured Work</h2>
+                        <article class="feature">
+                            <img class="image" src="img/three-400.jpg" alt="Movie Heros project">
+                            <h2 class="work-title">MOVIEHEROES</h2>
+                            <p><a class="link" href="#">https://github.com/keith/movieheros</a></p>
+                        </article>
 
-                <div class="work-items">
-                    
-                    <article class="feature">
-                        
-                        <img class="image" src="img/work-one.jpg">
-                        <h2 class="work-title">APPWORLD</h2>
-                        <p><a class="link" href="#">https://github.com/keith/appworld</a></p>
-
-                    </article>
-
-                    <article class="feature">
-                        
-                        <img class="image" src="img/work-two.jpg">
-                        <h2 class="work-title">GIGFINDER</h2>
-                        <p><a class="link" href="#">https://github.com/keith/gigfinder</a></p>
-
-                    </article>
-
-                    <article class="feature">
-                        
-                        <img class="image" src="img/work-three.jpg">
-                        <h2 class="work-title">MOVIEHEROES</h2>
-                        <p><a class="link" href="#">https://github.com/keith/movieheros</a></p>
-
-                    </article>
-                    
-                </div>
-
-            </section>
-
-
+                    </div>
+                </section>
+            </main>
         </div>
-        
-
-
     </body>
 </html>

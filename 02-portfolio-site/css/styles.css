@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	color: #2d3c49;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 26px;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	border-bottom: 2px solid #7d97ad;
+	padding-bottom: 20px;
+}
+
+.title{
+	text-align: right;
+	margin-left: auto;
+}
+
+.logo {
+	width: 60px;	
+}
+
+.main-header {
+	font-size: 2.6rem;
+	letter-spacing: 1px;
+}
+
+.main-image {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.text-header {
+	font-weight: 300;
+}
+
+.image {
+	max-width: 100%;
+}
+
+.work-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.feature-header {
+	color: #7d97ad;
+	margin-left: 10px;
+	margin-bottom: 12px;
+}
+
+.feature {
+	width: 280px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.work-title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media screen and (max-width: 414px) {
+
+	.main-header {
+		font-size: 1.8rem;
+	}
+
+	.logo {
+		width: 45px;
+		margin-left: 10px;
+	}
+
+	.text-header {
+		margin-right: 10px;
+	}
+
+	.feature-header {
+		font-size: 1.2rem;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.feature {
+		width: 220px;
+	}
+
+	.work-title {
+		font-size: 1.2rem;
+	}
+
+	.link {
+		font-size: 0.9rem
+	}
+
+	.work-items {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 415px) and (max-width: 858px) {
+
+	.main-header {
+		font-size: 2.4rem;
+	}
+
+	.logo {
+		width: 45px;
+		margin-left: 14px;
+	}
+
+	.text-header {
+		margin-right: 14px;
+	}
+
+	.feature-header {
+		font-size: 1.6rem;
+		text-align: center;
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+
+	.feature {
+		width: 380px;
+	}
+
+	.work-title {
+		font-size: 1.4rem;
+	}
+
+	.link {
+		font-size: 1.2rem
+	}
+
+	.work-items {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 859px) and (max-width: 1024px) {
+	.logo {
+		margin-left: 14px;
+	}
+
+	.text-header {
+		margin-right: 14px;
+	}	
+}
